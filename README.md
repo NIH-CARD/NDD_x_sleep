@@ -39,4 +39,10 @@ This notebook creates Kaplan Meyer graphs using the csv file created in step 4.
 
 This notebook creates density plots comparing significant exposures and the NDD PRS scores, using the csv files created in step 7.
 
+## 10_PREP_Interaction_Files.ipynb
 
+This notebook creates a new dataframe with an interaction varible by combining data from the csv files created in steps 4 and 7.
+
+## 11_PRS_Interaction.ipynb
+
+This notebook runs a glm looking at the interaction variables, using the csv file created in step 10.
