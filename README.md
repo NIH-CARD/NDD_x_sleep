@@ -17,4 +17,6 @@ This notebooks allows users to pull the dates of the first date of diagnosis of 
 
 ## 04_PREP_files.ipynb
 
-This files combines the previously created files and preps the dataframe for use in a cox regression. This includes eliminating exposures that occur either before the start of the study or after NDD diagnosis.  It also creates a "tenure" column and "lag" variables for exposure endpoints.
+This notebook combines the previously created files and preps the dataframe for use in a cox regression. This includes eliminating exposures that occur either before the start of the study or after NDD diagnosis.  It also creates a "tenure" column and "lag" variables for exposure endpoints.
+
+## 05_COX_model.ipynb
