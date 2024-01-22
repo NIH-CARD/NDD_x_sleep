@@ -26,3 +26,17 @@ This notebook uses the csv file created in step 4 and runs a lifelines Cox regre
 ## 06_COX_with_lags.ipynb
 
 This notebook uses the csv file created in step 4 and looks at significant results in greater detail, runing a lifelines Cox regression for exposures with "lags": all exposures before tenure (lag 0); 0-1 years before tenure; 1 to 5 years before tenure; 5-10 years before tenure; 10-15 years before tenure; and 5-15 years before tenure.
+
+## 07_prep_density_plots.ipynb
+
+This notebook adds PRS scores to the csv file created in step 4.
+
+## 08_Kaplan_Meyer.ipynb
+
+This notebook creates Kaplan Meyer graphs using the csv file created in step 4.
+
+## 09_PRS_density_plots.ipynb
+
+This notebook creates density plots comparing significant exposures and the NDD PRS scores, using the csv files created in step 7.
+
+
