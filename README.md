@@ -20,3 +20,9 @@ This notebooks allows users to pull the dates of the first date of diagnosis of 
 This notebook combines the previously created files and preps the dataframe for use in a cox regression. This includes eliminating exposures that occur either before the start of the study or after NDD diagnosis.  It also creates a "tenure" column and "lag" variables for exposure endpoints.
 
 ## 05_COX_model.ipynb
+
+This notebook uses the csv file created in step 4 and runs a lifelines Cox regression.  It also includes FDR correction.
+
+## 06_COX_with_lags.ipynb
+
+This notebook uses the csv file created in step 4 and looks at significant results in greater detail, runing a lifelines Cox regression for exposures with "lags": all exposures before tenure (lag 0); 0-1 years before tenure; 1 to 5 years before tenure; 5-10 years before tenure; 10-15 years before tenure; and 5-15 years before tenure.
