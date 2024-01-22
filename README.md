@@ -9,7 +9,7 @@ This notebook allows users to pull neurodegenerative disease (NDD) cases in the 
 
 ## 02_make_NDD_free_controls.ipybh
 
-This notebook allows users to make a "healthy" cohort free of all the NDDs listed above, as well as a number of associated conditions.  See notebook for exact condicitons which are excluded. It pulls the same covariates as the first notebook.
+This notebook allows users to make a "healthy" cohort free of all the NDDs listed above, as well as a number of associated conditions.  See notebook for the complete list of excluded conditions. It pulls the same covariates as the first notebook.
 
 ## 03_pull_ICD_dates.ipynb
 
