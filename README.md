@@ -21,15 +21,15 @@ This notebook combines the previously created files and preps the dataframe for 
 
 ## 05_COX_model.ipynb
 
-This notebook uses the csv file created in step 4 and runs a lifelines Cox regression.  It also includes FDR correction.
+This notebook uses the csv file created in step 4 and runs a lifelines Cox regression.  It also includes FDR correction and an option to exclude Welsh samples.
 
 ## 06_COX_with_lags.ipynb
 
-This notebook uses the csv file created in step 4 and looks at significant results in greater detail, runing a lifelines Cox regression for exposures with "lags": all exposures before tenure (lag 0); 0-1 years before tenure; 1 to 5 years before tenure; 5-10 years before tenure; 10-15 years before tenure; and 5-15 years before tenure. It also includes FDR correction.
+This notebook uses the csv file created in step 4 and looks at significant results in greater detail, runing a lifelines Cox regression for exposures with "lags": all exposures before tenure (lag 0); 0-1 years before tenure; 1 to 5 years before tenure; 5-10 years before tenure; 10-15 years before tenure; and 5-15 years before tenure. It also includes FDR correction and an option to exclude Welsh samples.
 
 ## 07_prep_density_plots.ipynb
 
-This notebook adds PRS scores for AD and PD to the csv file created in step 4.
+This notebook adds PRS scores and PCs for AD and PD to the csv file created in step 4.
 
 ## 08_Kaplan_Meyer.ipynb
 
